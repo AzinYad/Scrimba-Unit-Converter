@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <!-----------------------head-------------------------->
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Noto+Serif:ital@0;1&family=Satisfy&display=swap"
+        rel="stylesheet">
+
+    <link rel= "stylesheet"   href="style.css"  >
+    <title> Scrimba solo project </title>
+
+</head>
+
+    <!------------------------body------------------------->
+<body> 
+
+    <main class="main">
+    <header class="hero" id="hero">
+        <h1 id="first"> Metric/Imperial unit conversion</h1>
+        <input type="number" id="input" class="input" contenteditable="true">
+       
+    </header>
+     <!-----------------------main------------------------->
+
+    <div class="conversion">
+
+        <div class="length">Length (Meter/Feet)
+        <p><span id="m">0</span> meters = <span id="mtf">0</span> feet 
+            | <span id="f">0</span> feet = <span id="ftm">0</span> meters </p>
+        </div>   
+
+        <div class="volume"> Volume (Liters/Gallons)
+            <p><span id="l">0</span> liters = <span id="ltg" >0</span> gallons 
+                | <span id="g">0</span> gallons = <span id="gtl" >0</span> liters </p>
+        </div>
+
+        <div class="mass" > Mass (Kilograms/Pounds)
+        <p><span id="k">0</span> kilos = <span id="ktp" >0</span> pounds 
+            | <span id="p">0</span> pounds = <span id="ptk" >0</span> kilos </p>
+
+        </div>
+
+    </div>
+</main>
+
+  <script src="script.js"></script>
+</body>
+</html>
